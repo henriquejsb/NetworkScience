@@ -1,0 +1,80 @@
+gtrieScanner Results
+------------------------------------------
+General Information
+
+Start of Computation: 03h13m05s 16/04/2020
+End of Computation: 03h13m06s 16/04/2020
+
+Subgraph Size: 3
+Graph File: "../networks/highschool.txt"
+Directed: YES
+Nr Nodes: 70
+Nr Edges: 366
+
+Method: GTRIE with file containing complete g-trie
+Different Types of Subgraphs Found [Original Network]: 13
+Subgraph Occurrences Found [Original Network]: 1664
+Time for computing census on original network: 0.000459s
+Average time for census on random network: 0.000357s
+
+Number of random networks: 1000
+Random seed: 1587003185
+Exchanges per edge: 3
+Number of tries per exchange: 10
+------------------------------------------
+Motif Analysis Results
+
+Graph   Org_Freq |  Z-score |    Rnd_Avg +/-    Rnd_Dev
+
+011
+101
+110           41 |   200.66 |       0.04 +/-       0.20
+
+011
+101
+100           66 |    47.39 |       1.53 +/-       1.36
+
+010
+100
+110           70 |    17.49 |       9.08 +/-       3.48
+
+011
+100
+100           61 |    13.25 |       7.08 +/-       4.07
+
+011
+101
+000           34 |    10.78 |       6.00 +/-       2.60
+
+010
+100
+100          368 |     5.74 |     166.77 +/-      35.06
+
+011
+100
+000          206 |     3.90 |     113.28 +/-      23.79
+
+011
+100
+010           26 |     2.82 |      13.92 +/-       4.28
+
+011
+001
+000           66 |    -5.46 |     143.52 +/-      14.20
+
+001
+100
+010            4 |    -5.54 |      41.25 +/-       6.72
+
+000
+100
+100          281 |   -15.62 |     872.38 +/-      37.87
+
+001
+100
+000          275 |   -16.61 |    1357.86 +/-      65.20
+
+011
+000
+000          166 |   -17.37 |     615.95 +/-      25.90
+

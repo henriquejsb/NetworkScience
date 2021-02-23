@@ -1,0 +1,80 @@
+gtrieScanner Results
+------------------------------------------
+General Information
+
+Start of Computation: 02h40m53s 16/04/2020
+End of Computation: 02h40m54s 16/04/2020
+
+Subgraph Size: 3
+Graph File: "../networks/circuit2.txt"
+Directed: YES
+Nr Nodes: 252
+Nr Edges: 399
+
+Method: GTRIE with file containing complete g-trie
+Different Types of Subgraphs Found [Original Network]: 4
+Subgraph Occurrences Found [Original Network]: 1121
+Time for computing census on original network: 0.000235s
+Average time for census on random network: 0.000099s
+
+Number of random networks: 1000
+Random seed: 1587001253
+Exchanges per edge: 3
+Number of tries per exchange: 10
+------------------------------------------
+Motif Analysis Results
+
+Graph   Org_Freq |  Z-score |    Rnd_Avg +/-    Rnd_Dev
+
+001
+100
+010           20 |    19.36 |       1.04 +/-       0.98
+
+000
+100
+100          193 |     1.78 |     188.35 +/-       2.61
+
+011
+000
+000          380 |     1.40 |     374.34 +/-       4.04
+
+001
+100
+000          528 |    -6.08 |     575.05 +/-       7.73
+
+010
+100
+100            0 |     -nan |       0.00 +/-       0.00
+
+010
+100
+110            0 |     -nan |       0.00 +/-       0.00
+
+011
+001
+000            0 |     -nan |       0.00 +/-       0.00
+
+011
+100
+000            0 |     -nan |       0.00 +/-       0.00
+
+011
+100
+010            0 |     -nan |       0.00 +/-       0.00
+
+011
+100
+100            0 |     -nan |       0.00 +/-       0.00
+
+011
+101
+000            0 |     -nan |       0.00 +/-       0.00
+
+011
+101
+100            0 |     -nan |       0.00 +/-       0.00
+
+011
+101
+110            0 |     -nan |       0.00 +/-       0.00
+

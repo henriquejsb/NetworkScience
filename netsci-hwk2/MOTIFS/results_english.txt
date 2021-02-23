@@ -1,0 +1,80 @@
+gtrieScanner Results
+------------------------------------------
+General Information
+
+Start of Computation: 02h41m33s 16/04/2020
+End of Computation: 02h55m58s 16/04/2020
+
+Subgraph Size: 3
+Graph File: "../networks/english.txt"
+Directed: YES
+Nr Nodes: 7724
+Nr Edges: 46281
+
+Method: GTRIE with file containing complete g-trie
+Different Types of Subgraphs Found [Original Network]: 13
+Subgraph Occurrences Found [Original Network]: 13792374
+Time for computing census on original network: 0.639198s
+Average time for census on random network: 0.638609s
+
+Number of random networks: 1000
+Random seed: 1587001293
+Exchanges per edge: 3
+Number of tries per exchange: 10
+------------------------------------------
+Motif Analysis Results
+
+Graph   Org_Freq |  Z-score |    Rnd_Avg +/-    Rnd_Dev
+
+001
+100
+010        24997 |    32.31 |   13692.64 +/-     349.82
+
+011
+000
+000      3946117 |    29.19 | 3214674.07 +/-   25061.58
+
+001
+100
+000      4988512 |    27.32 | 3855458.09 +/-   41476.90
+
+000
+100
+100      2399051 |    21.97 | 1984795.50 +/-   18855.36
+
+011
+001
+000        82031 |    21.66 |   56403.42 +/-    1183.08
+
+011
+100
+100       142297 |   -13.58 |  250906.05 +/-    8000.40
+
+011
+101
+110          799 |   -19.21 |    5617.86 +/-     250.87
+
+010
+100
+100      1026839 |   -20.06 | 1262416.98 +/-   11740.92
+
+010
+100
+110        11192 |   -26.24 |   19989.18 +/-     335.30
+
+011
+101
+000        13336 |   -26.66 |   22638.45 +/-     348.92
+
+011
+100
+010        27244 |   -31.35 |   39376.61 +/-     387.06
+
+011
+100
+000      1119607 |   -31.45 | 1671867.14 +/-   17558.27
+
+011
+101
+100        10352 |   -34.81 |   31457.03 +/-     606.25
+
